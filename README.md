@@ -1,7 +1,6 @@
 # 👋🏼 Hi there! I'm Ion, I'm a...
 
-- **Full Stack Developer** at [Gucci](https://www.gucci.com) (as a consultant)
-- **Mule Integration Specialist** at [Florence Consulting](https://www.linkedin.com/company/florence-consulting-group/mycompany/)
+- **Full Stack Developer** currently working at [Gucci](https://www.gucci.com) (as a consultant)
 - **Tech Entusiast** with a special love for performant lightweight technologies
 - **A future father** ❤️ 🎁
 
