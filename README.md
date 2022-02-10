@@ -11,6 +11,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![golang](https://img.shields.io/badge/golang-323330?style=for-the-badge&logo=go&logoColor=00bfff)
 ![kotlin](https://img.shields.io/badge/kotlin-7992B1?style=for-the-badge&logo=kotlin&logoColor=white)
+![terraform](https://img.shields.io/badge/terraform-204B57?style=for-the-badge&logo=terraform&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![swift](https://img.shields.io/badge/swift-orange?style=for-the-badge&logo=swift&logoColor=white)
@@ -21,6 +22,7 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Svelte](https://img.shields.io/badge/svelte-orange?style=for-the-badge&logo=svelte&logoColor=white)
 ![Fastify](https://img.shields.io/badge/fastify-black?style=for-the-badge&logo=fastify&logoColor=white)
+![express](https://img.shields.io/badge/express-darkgreen?style=for-the-badge&logo=express&logoColor=white)
 ![Fiber](https://img.shields.io/badge/fiber-A4C7C5?style=for-the-badge&logo=fiber&logoColor=white)
 ![Nodejs](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
@@ -40,6 +42,9 @@
 ![Vercel](https://img.shields.io/badge/vercel-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)
 ![Mural](https://img.shields.io/badge/mural-white?style=for-the-badge&logo=mural&logoColor=red)
+![mongodb](https://img.shields.io/badge/mongodb-008517?style=for-the-badge&logo=mongodb&logoColor=white)
+![dynamodb](https://img.shields.io/badge/dynamodb-000d3e?style=for-the-badge&logo=dynamodb&logoColor=white)
+![mysql](https://img.shields.io/badge/mysql-95abff?style=for-the-badge&logo=mysql&logoColor=white)
 
 
 ## 💌 Get in touch
