@@ -1,6 +1,6 @@
 # 👋🏼 Hi there! I'm Ion, I'm a...
 
-- **Full Stack Developer** currently working at [Gucci](https://www.gucci.com) (as a consultant)
+- **Full Stack Developer** 
 - **Tech Entusiast** with a special love for performant lightweight technologies
 - **A future father** ❤️ 🎁
 
