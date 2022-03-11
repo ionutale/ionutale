@@ -2,7 +2,6 @@
 
 - **Full Stack Developer** 
 - **Tech Entusiast** with a special love for performant lightweight technologies
-- **A future father** ❤️ 🎁
 
 ## ⚡ Tech Stack
 
