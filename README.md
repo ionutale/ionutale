@@ -50,4 +50,4 @@
 
 <a href="https://www.linkedin.com/in/ion-utale/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
-<a href="https://www.buymeacoffee.com/ionutale"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"></a>
+https://rxresu.me/dashboard
