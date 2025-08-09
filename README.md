@@ -1,6 +1,6 @@
 # 👋🏼 Hi there! I'm Ion, I'm a...
 
-- **Full Stack Developer** 
+- **Software Engineer** 
 - **Tech Entusiast** with a special love for performant lightweight technologies
 
 ## ⚡ Tech Stack
@@ -44,6 +44,7 @@
 ![mongodb](https://img.shields.io/badge/mongodb-008517?style=for-the-badge&logo=mongodb&logoColor=white)
 ![dynamodb](https://img.shields.io/badge/dynamodb-000d3e?style=for-the-badge&logo=dynamodb&logoColor=white)
 ![mysql](https://img.shields.io/badge/mysql-95abff?style=for-the-badge&logo=mysql&logoColor=white)
+and more...
 
 
 ## 💌 Get in touch
