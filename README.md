@@ -1,52 +1,85 @@
-# 👋🏼 Hi there! I'm Ion, I'm a...
+<p align="center">
+  <h1 align="center">👋 Hi, I'm Ion</h1>
+  <p align="center">Senior Software Engineer · Milan, Italy</p>
+</p>
 
-- **Software Engineer** 
-- **Tech Entusiast** with a special love for performant lightweight technologies
+<p align="center">
+  <a href="https://www.linkedin.com/in/ion-utale/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://github.com/ionutale"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="mailto:ionutale@icloud.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
-## ⚡ Tech Stack
+---
 
-### 🚀 Languages
+Software engineer specializing in **backend systems**, **cloud infrastructure**, and **performant full-stack applications** — building macOS utilities in Swift, real-time backends in Go, and games in TypeScript.
 
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![golang](https://img.shields.io/badge/golang-323330?style=for-the-badge&logo=go&logoColor=00bfff)
-![kotlin](https://img.shields.io/badge/kotlin-7992B1?style=for-the-badge&logo=kotlin&logoColor=white)
-![terraform](https://img.shields.io/badge/terraform-204B57?style=for-the-badge&logo=terraform&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![swift](https://img.shields.io/badge/swift-orange?style=for-the-badge&logo=swift&logoColor=white)
-![Java](https://img.shields.io/badge/Java-gray?style=for-the-badge&logo=java&logoColor=white)
+## 🚀 Featured Projects
 
-### 🧩 Libraries & Framework
+| Project | Description |
+| --- | --- |
+| [**stats**](https://github.com/ionutale/stats) | macOS system monitor in your menu bar (Swift) |
+| [**pocketbase**](https://github.com/ionutale/pocketbase) | Open-source realtime backend in one file (Go) |
+| [**flameshot**](https://github.com/ionutale/flameshot) | Powerful yet simple screenshot software (C++) |
+| [**clipboard-manager**](https://github.com/ionutale/clipboard-manager) | macOS clipboard manager (C++) |
+| [**restaurant-orders-manager**](https://github.com/ionutale/restaurant-orders-manager) | Restaurant orders manager (Go) |
+| [**galaxy-empire**](https://github.com/ionutale/galaxy-empire-deepseek4-spring-boot) | City-building strategy game (TypeScript) |
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Svelte](https://img.shields.io/badge/svelte-orange?style=for-the-badge&logo=svelte&logoColor=white)
-![Fastify](https://img.shields.io/badge/fastify-black?style=for-the-badge&logo=fastify&logoColor=white)
-![express](https://img.shields.io/badge/express-darkgreen?style=for-the-badge&logo=express&logoColor=white)
-![Fiber](https://img.shields.io/badge/fiber-A4C7C5?style=for-the-badge&logo=fiber&logoColor=white)
-![Nodejs](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Material UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?&style=for-the-badge&logo=Socket.io&logoColor=white)
-![mule](https://img.shields.io/badge/mule-blue?&style=for-the-badge&logo=mulesoft&logoColor=white)
+## 🛠️ Currently Building
 
-### 🧑🏻‍💻 Tools & Platform
+- **Games** — strategy and arcade games in TypeScript/Svelte
+- **macOS utilities** — menu-bar apps and system tools in Swift/C++
+- **Backends** — real-time services and clones in Go
 
-![gitpod](https://img.shields.io/badge/gitpod-white?style=for-the-badge&logo=gitpod&logoColor=orange)
-![DOCKER](https://img.shields.io/badge/docker-blue?style=for-the-badge&logo=docker&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![aws](https://img.shields.io/badge/aws-yellow?style=for-the-badge&logo=amazon&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ionutale&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" width="400">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ionutale&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" width="300">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ionutale&theme=tokyonight&hide_border=true" alt="GitHub streak" width="400">
+</p>
+
+## 🧰 Tech Stack
+
+**Languages**
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Java](https://img.shields.io/badge/Java-E76F00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
+
+**Frameworks & Runtimes**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
+![Fiber](https://img.shields.io/badge/Fiber-000000?style=for-the-badge&logo=fiber&logoColor=white)
+
+**Infrastructure & Cloud**
+
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+**Databases & Storage**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
+
+**Tools & Platforms**
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)
-![Mural](https://img.shields.io/badge/mural-white?style=for-the-badge&logo=mural&logoColor=red)
-![mongodb](https://img.shields.io/badge/mongodb-008517?style=for-the-badge&logo=mongodb&logoColor=white)
-![dynamodb](https://img.shields.io/badge/dynamodb-000d3e?style=for-the-badge&logo=dynamodb&logoColor=white)
-![mysql](https://img.shields.io/badge/mysql-95abff?style=for-the-badge&logo=mysql&logoColor=white)
-and more...
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![MuleSoft](https://img.shields.io/badge/MuleSoft-00A7E1?style=for-the-badge&logo=mulesoft&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 
+## 📫 Connect
 
-## 💌 Get in touch
-
-<a href="https://www.linkedin.com/in/ion-utale/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+[LinkedIn](https://www.linkedin.com/in/ion-utale/) · [Email](mailto:ionutale@icloud.com) · [GitHub](https://github.com/ionutale)
