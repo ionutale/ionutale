@@ -33,9 +33,10 @@ Software engineer specializing in **backend systems**, **cloud infrastructure**,
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ionutale&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" width="400">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ionutale&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" width="300">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ionutale&theme=tokyonight&hide_border=true" alt="GitHub streak" width="400">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fionutale&query=public_repos&label=Public%20Repos&style=for-the-badge&color=6e5494&logo=github&logoColor=white" alt="Public repos">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fionutale&query=followers&label=Followers&style=for-the-badge&color=6e5494&logo=github&logoColor=white" alt="Followers">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fionutale&query=following&label=Following&style=for-the-badge&color=6e5494&logo=github&logoColor=white" alt="Following">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ionutale&theme=tokyonight&hide_border=true" alt="GitHub streak">
 </p>
 
 ## 🧰 Tech Stack
