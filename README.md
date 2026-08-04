@@ -28,7 +28,7 @@ Software engineer specializing in **backend systems**, **cloud infrastructure**,
 
 - **Games** — strategy and arcade games in TypeScript/Svelte
 - **macOS utilities** — menu-bar apps and system tools in Swift/C++
-- **Backends** — real-time services and clones in Go
+- **Backends** — real-time services in Go
 
 ## 📊 GitHub Stats
 
