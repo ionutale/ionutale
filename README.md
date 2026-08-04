@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">👋 Hi, I'm Ion</h1>
-  <p align="center">Senior Software Engineer · Milan, Italy</p>
+  <p align="center">Senior Software Engineer · 📍 Milan, Italy</p>
 </p>
 
 <p align="center">
@@ -11,18 +11,18 @@
 
 ---
 
-Software engineer specializing in **backend systems**, **cloud infrastructure**, and **performant full-stack applications** — building macOS utilities in Swift, real-time backends in Go, and games in TypeScript.
+Software engineer specializing in **backend systems**, **cloud infrastructure**, and **performant full-stack applications**. I work across the stack — native system tools in C/C++, Swift and Rust, real-time backends in Go, and games in TypeScript.
 
 ## 🚀 Featured Projects
 
-| Project | Description |
-| --- | --- |
-| [**stats**](https://github.com/ionutale/stats) | macOS system monitor in your menu bar (Swift) |
-| [**pocketbase**](https://github.com/ionutale/pocketbase) | Open-source realtime backend in one file (Go) |
-| [**flameshot**](https://github.com/ionutale/flameshot) | Powerful yet simple screenshot software (C++) |
-| [**clipboard-manager**](https://github.com/ionutale/clipboard-manager) | macOS clipboard manager (C++) |
-| [**restaurant-orders-manager**](https://github.com/ionutale/restaurant-orders-manager) | Restaurant orders manager (Go) |
-| [**galaxy-empire**](https://github.com/ionutale/galaxy-empire-deepseek4-spring-boot) | City-building strategy game (TypeScript) |
+| Project | Description | Tech |
+| --- | --- | --- |
+| [**stats**](https://github.com/ionutale/stats) | macOS system monitor in your menu bar | ![Swift](https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white) ![stars](https://img.shields.io/github/stars/ionutale/stats) ![forks](https://img.shields.io/github/forks/ionutale/stats) |
+| [**pocketbase**](https://github.com/ionutale/pocketbase) | Open-source realtime backend in one file | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) ![stars](https://img.shields.io/github/stars/ionutale/pocketbase) ![forks](https://img.shields.io/github/forks/ionutale/pocketbase) |
+| [**flameshot**](https://github.com/ionutale/flameshot) | Powerful yet simple screenshot software | ![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white) ![stars](https://img.shields.io/github/stars/ionutale/flameshot) ![forks](https://img.shields.io/github/forks/ionutale/flameshot) |
+| [**clipboard-manager**](https://github.com/ionutale/clipboard-manager) | macOS clipboard manager | ![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white) ![stars](https://img.shields.io/github/stars/ionutale/clipboard-manager) ![forks](https://img.shields.io/github/forks/ionutale/clipboard-manager) |
+| [**restaurant-orders-manager**](https://github.com/ionutale/restaurant-orders-manager) | Restaurant orders manager | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) ![stars](https://img.shields.io/github/stars/ionutale/restaurant-orders-manager) ![forks](https://img.shields.io/github/forks/ionutale/restaurant-orders-manager) |
+| [**galaxy-empire**](https://github.com/ionutale/galaxy-empire-deepseek4-spring-boot) | City-building strategy game | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![stars](https://img.shields.io/github/stars/ionutale/galaxy-empire-deepseek4-spring-boot) ![forks](https://img.shields.io/github/forks/ionutale/galaxy-empire-deepseek4-spring-boot) |
 
 ## 🛠️ Currently Building
 
@@ -39,19 +39,28 @@ Software engineer specializing in **backend systems**, **cloud infrastructure**,
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ionutale&theme=tokyonight&hide_border=true" alt="GitHub streak">
 </p>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ionutale&theme=tokyo-night&hide_border=true" alt="GitHub activity graph">
+</p>
+
 ## 🧰 Tech Stack
 
 **Languages**
 
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
+![Objective-C](https://img.shields.io/badge/Objective--C-438EFF?style=for-the-badge&logo=objectivec&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-E76F00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
 
 **Frameworks & Runtimes**
 
+![Qt](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
