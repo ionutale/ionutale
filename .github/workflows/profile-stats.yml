@@ -1,0 +1,53 @@
+name: Profile stats
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compute last-30-days stats
+        env:
+          GH_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: bash scripts/profile-stats.sh > /tmp/stats-block.md
+
+      - name: Update README
+        run: |
+          python3 - <<'PY'
+          import pathlib, re
+
+          readme = pathlib.Path("README.md")
+          text = readme.read_text()
+          block = pathlib.Path("/tmp/stats-block.md").read_text().strip()
+          updated = re.sub(
+              r"<!-- stats:start -->.*?<!-- stats:end -->",
+              "<!-- stats:start -->\n" + block + "\n<!-- stats:end -->",
+              text,
+              flags=re.S,
+          )
+          if updated != text:
+              readme.write_text(updated)
+              print("README updated")
+          else:
+              print("no change")
+          PY
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+          else
+            git commit -m "chore: refresh last-30-days stats"
+            git push
+          fi

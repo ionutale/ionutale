@@ -32,6 +32,16 @@ Software engineer specializing in **backend systems**, **cloud infrastructure**,
 
 ## 📊 GitHub Stats
 
+### 📈 Last 30 days
+
+<!-- stats:start -->
+| Commits | Lines changed | Pull requests | Projects |
+| :---: | :---: | :---: | :---: |
+| **256** | **+126,664** / −17,679 | **0** | **8** |
+
+<sub>Commits, lines, pull requests, and distinct projects over the last 30 days — refreshed daily by [this workflow](../actions/workflows/profile-stats.yml).</sub>
+<!-- stats:end -->
+
 <p align="center">
   <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fionutale&query=public_repos&label=Public%20Repos&style=for-the-badge&color=6e5494&logo=github&logoColor=white" alt="Public repos">
   <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fionutale&query=followers&label=Followers&style=for-the-badge&color=6e5494&logo=github&logoColor=white" alt="Followers">
