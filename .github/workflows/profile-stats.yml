@@ -14,37 +14,31 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Compute last-30-days stats
+      - name: Check for STATS_TOKEN
+        id: token
         env:
-          GH_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
-        run: bash scripts/profile-stats.sh > /tmp/stats-block.md
-
-      - name: Update README
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
         run: |
-          python3 - <<'PY'
-          import pathlib, re
+          if [ -z "$STATS_TOKEN" ]; then
+            echo "STATS_TOKEN is not set — skipping, so public-only numbers never overwrite the real ones."
+            echo "Add it once with: gh secret set STATS_TOKEN -R $GITHUB_REPOSITORY"
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
 
-          readme = pathlib.Path("README.md")
-          text = readme.read_text()
-          block = pathlib.Path("/tmp/stats-block.md").read_text().strip()
-          updated = re.sub(
-              r"<!-- stats:start -->.*?<!-- stats:end -->",
-              "<!-- stats:start -->\n" + block + "\n<!-- stats:end -->",
-              text,
-              flags=re.S,
-          )
-          if updated != text:
-              readme.write_text(updated)
-              print("README updated")
-          else:
-              print("no change")
-          PY
+      - name: Compute stats
+        if: steps.token.outputs.configured == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: bash scripts/profile-stats.sh stats.json
 
       - name: Commit
+        if: steps.token.outputs.configured == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add stats.json
           if git diff --cached --quiet; then
             echo "nothing to commit"
           else

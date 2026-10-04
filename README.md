@@ -34,13 +34,12 @@ Software engineer specializing in **backend systems**, **cloud infrastructure**,
 
 ### 📈 Last 30 days
 
-<!-- stats:start -->
-| Commits | Lines changed | Pull requests | Projects |
-| :---: | :---: | :---: | :---: |
-| **256** | **+126,664** / −17,679 | **0** | **8** |
-
-<sub>Commits, lines, pull requests, and distinct projects over the last 30 days — refreshed daily by [this workflow](../actions/workflows/profile-stats.yml).</sub>
-<!-- stats:end -->
+<p align="center">
+  <a href="https://github.com/ionutale/ionutale/actions/workflows/profile-stats.yml"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fionutale%2Fionutale%2Fmain%2Fstats.json&query=commits_display&label=Commits&style=for-the-badge&color=6e5494" alt="Commits in the last 30 days"></a>
+  <a href="https://github.com/ionutale/ionutale/actions/workflows/profile-stats.yml"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fionutale%2Fionutale%2Fmain%2Fstats.json&query=lines_added_display&label=Lines%20added&style=for-the-badge&color=6e5494" alt="Lines added in the last 30 days"></a>
+  <a href="https://github.com/ionutale/ionutale/actions/workflows/profile-stats.yml"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fionutale%2Fionutale%2Fmain%2Fstats.json&query=pull_requests_display&label=Pull%20requests&style=for-the-badge&color=6e5494" alt="Pull requests in the last 30 days"></a>
+  <a href="https://github.com/ionutale/ionutale/actions/workflows/profile-stats.yml"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fionutale%2Fionutale%2Fmain%2Fstats.json&query=projects_display&label=Projects&style=for-the-badge&color=6e5494" alt="Distinct projects in the last 30 days"></a>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fionutale&query=public_repos&label=Public%20Repos&style=for-the-badge&color=6e5494&logo=github&logoColor=white" alt="Public repos">

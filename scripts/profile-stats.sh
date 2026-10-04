@@ -1,17 +1,19 @@
 #!/usr/bin/env bash
-# Computes the last-30-days stats block for the profile README.
+# Computes the last-30-days stats and writes stats.json for the profile
+# badges (raw.githubusercontent.com/ionutale/ionutale/main/stats.json).
 #
 # Requires: gh (authenticated) and jq. Includes private-repo activity when
-# the token can see it (a personal STATS_TOKEN secret); falls back to public
-# activity with the default GITHUB_TOKEN.
+# the token can see it — the workflow only runs with a personal STATS_TOKEN
+# so public-only numbers never overwrite the real ones.
 #
-# Usage: bash scripts/profile-stats.sh > /tmp/stats-block.md
+# Usage: bash scripts/profile-stats.sh [output.json]
 
 set -euo pipefail
 
 USER="${STATS_USER:-ionutale}"
 DAYS="${STATS_DAYS:-30}"
 CAP="${STATS_COMMIT_CAP:-300}"
+OUTPUT="${1:-stats.json}"
 
 if date -u -d "-${DAYS} days" +%Y-%m-%dT%H:%M:%SZ >/dev/null 2>&1; then
   FROM=$(date -u -d "-${DAYS} days" +%Y-%m-%dT%H:%M:%SZ)
@@ -58,18 +60,30 @@ while IFS= read -r repo; do
   done
 done < <(echo "$RESULT" | jq -r '.data.user.contributionsCollection.commitContributionsByRepository[].repository.nameWithOwner')
 
-format() {
-  if printf "%'d" "$1" >/dev/null 2>&1; then
-    printf "%'d" "$1"
-  else
-    printf "%d" "$1"
-  fi
+group() { # 1234567 -> 1,234,567
+  local rest="$1" out=""
+  while [ "${#rest}" -gt 3 ]; do
+    out=",${rest: -3}$out"
+    rest="${rest:0:${#rest}-3}"
+  done
+  printf "%s%s" "$rest" "$out"
 }
 
-cat <<EOF
-| Commits | Lines changed | Pull requests | Projects |
-| :---: | :---: | :---: | :---: |
-| **$(format "$COMMITS")** | **+$(format "$ADDITIONS")** / −$(format "$DELETIONS") | **$(format "$PRS")** | **$(format "$PROJECTS")** |
-
-<sub>Commits, lines, pull requests, and distinct projects over the last ${DAYS} days — refreshed daily by [this workflow](../actions/workflows/profile-stats.yml).</sub>
+cat > "$OUTPUT" <<EOF
+{
+  "updated": "$TO",
+  "days": $DAYS,
+  "commits": $COMMITS,
+  "commits_display": "$(group "$COMMITS")",
+  "lines_added": $ADDITIONS,
+  "lines_added_display": "+$(group "$ADDITIONS")",
+  "lines_removed": $DELETIONS,
+  "lines_removed_display": "-$(group "$DELETIONS")",
+  "pull_requests": $PRS,
+  "pull_requests_display": "$(group "$PRS")",
+  "projects": $PROJECTS,
+  "projects_display": "$(group "$PROJECTS")"
+}
 EOF
+
+echo "wrote $OUTPUT — $(group "$COMMITS") commits, +$(group "$ADDITIONS")/-$(group "$DELETIONS") lines, $(group "$PRS") PRs, $(group "$PROJECTS") projects"
