@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">👋 Hi, I'm Ion</h1>
-  <p align="center">Senior Software Engineer · 📍 Milan, Italy</p>
+  <p align="center">Senior Software Engineer</p>
 </p>
 
 <p align="center">
